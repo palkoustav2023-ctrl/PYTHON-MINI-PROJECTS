@@ -22,7 +22,7 @@ def rock_paper_scissors():
         else:
             print('Error occured! Please recheck!')
 
-        continuation = input('DO you want to continue (y/n)?: ')
+        continuation = input('Do you want to continue (y/n)?: ')
         if continuation == 'n':
             print('Thank You for playing Rock, Paper, Scissors with me!')
             break
